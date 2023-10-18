@@ -1,5 +1,3 @@
-warn("Made By ●Xenjio○#9080")
-print("Made By ●Xenjio○#9080")
 --Its coded kinda shitty with things it dont needs to do but it works so im happy with it
 local hashTable = {}
 
