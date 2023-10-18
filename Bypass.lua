@@ -35,7 +35,6 @@ for functionName, tableContents in pairs(hashTable) do
     end
 end
 
--- Rename everything in the API folder to their original names
 local apiFolder = game:GetService("ReplicatedStorage").API
 for _, remoteTable in pairs(apiFolder:GetDescendants()) do
     if remoteTable:IsA("RemoteEvent") or remoteTable:IsA("RemoteFunction") then
@@ -46,7 +45,6 @@ for _, remoteTable in pairs(apiFolder:GetDescendants()) do
     end
 end
 
--- Print the renamed values in the API folder
 for _, remoteTable in pairs(apiFolder:GetDescendants()) do
     if remoteTable:IsA("RemoteEvent") or remoteTable:IsA("RemoteFunction") then
         print(remoteTable.Name)
