@@ -48,3 +48,4 @@ for _, remoteTable in pairs(apiFolder:GetDescendants()) do
         print(remoteTable.Name)
     end
 end
+warn("Loaded")
