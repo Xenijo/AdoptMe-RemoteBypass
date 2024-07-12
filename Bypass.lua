@@ -1,5 +1,5 @@
 --Its coded kinda shitty with things it dont needs to do but it works so im happy with it
-warn("[DEBUG] LOADING XENIJOS UNHASER V-1")
+warn("[DEBUG] LOADING XENIJOS UNHASHER V-1")
 local hashTable = {}
 
 for i, v in pairs(getgc()) do
