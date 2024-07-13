@@ -46,7 +46,7 @@ end
 
 for _, remoteTable in pairs(apiFolder:GetDescendants()) do
     if remoteTable:IsA("RemoteEvent") or remoteTable:IsA("RemoteFunction") then
-        print(remoteTable.Name)
+       
     end
 end
 warn("Loaded")
